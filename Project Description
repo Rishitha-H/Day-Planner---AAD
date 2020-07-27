@@ -1,0 +1,14 @@
+:D-Day
+
+A simple day planner app with features like reminder, app-lock, share, note-taking ,to-do list ,image etc.
+
+• Calendar
+• Notes/to-do list/checklist
+• can store in text format, image format etc.
+• Share
+• Reminder
+• App-lock
+• Widget mode
+
+When pressed any date, you are taken to a new screen to plan your respective tasks/take some notes / check list. Simple share feature to share a particular note. 
+Inbuilt app-lock, google sign in option to save your data securely. 
