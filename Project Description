@@ -2,7 +2,7 @@
 :D-Day
 ------------------------------------------------------
 
-A simple day planner app with features like reminder, app-lock, share, note-taking ,to-do list ,image etc.
+Main idea is a  simple day planner application with notetaking,to-dolist and password protection. Upon updating, more features like reminder, app-lock, share,widget mode etc.
 
 • Calendar
 • Notes/to-do list/checklist
