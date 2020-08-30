@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation = "vertical"
+tools:context=".Task2">
+
+    <EditText
+        android:id="@+id/taskdes"
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:layout_marginTop="15dp"
+        android:background="#C5DBE4"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:gravity="start|top"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginTop="12dp">
+
+        <ImageView
+            android:id="@+id/calender"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/calender" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/idate"
+            android:layout_width="30dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:background="@color/colorwhite"
+            app:srcCompat="@drawable/dnext_foreground" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="39dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/clock"
+        android:layout_width="50dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/clock" />
+
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:textSize="15sp" />
+        //android:inputType="time"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/itime"
+        android:layout_width="33dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:background="@color/colorwhite"
+        app:srcCompat="@drawable/tnext_foreground" />
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="#C5DBE4"
+    android:orientation="vertical"
+    tools:context=".mainactivity2">
+
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:autofillHints=""
+        android:background="#C6DFF3"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:text="Enter your note:"
+        android:textColorHint="#000000"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_marginBottom="5dp"
+        android:background="#DEEBF1"
+        android:backgroundTint="#FAFAFA"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:textColorHint="#ACABAB"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="563dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:textColorHint="#ACABAB"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#C5DBE4"
+            android:onClick="Gallery"
+            android:text="Gallery"
+            android:textColor="@color/colorBlack" />
+
+        <Button
+            android:id="@+id/cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#C5DBE4"
+            android:onClick="Camera"
+            android:text="Camera"
+            android:textColor="@color/colorBlack" />
+</LinearLayout>
+
+</LinearLayout>

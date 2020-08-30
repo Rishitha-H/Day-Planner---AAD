@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/menuapperance"
+      android:icon="@drawable/apperance"
+      android:title="Cutomize"/>
+
+    <item
+        android:id="@+id/menusettingd"
+        android:icon="@drawable/settings"
+        android:title="Settings"/>
+
+  <item
+      android:id="@+id/menuWidget"
+      android:icon="@drawable/widget"
+      android:title="Widget" />
+
+    <item
+        android:id="@+id/menulock"
+        android:icon="@drawable/lockk"
+        android:title="App Lock"/>
+
+    <item
+        android:id="@+id/menuRem"
+        android:icon="@drawable/reminder_foreground"
+        android:title="Reminder"/>
+
+</menu>

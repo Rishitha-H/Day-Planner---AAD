@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context=".LockScreen">
+    
+    <DigitalClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textColor="@color/colorwhite"
+        android:textSize="50sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorgrey"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text=" Please Enter Your Pattern"/>
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/set"
+        android:fontFamily="sans-serif-light"
+        android:background="@color/colorBlack"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorwhite"
+        android:text="SET"
+        />
+</LinearLayout>
